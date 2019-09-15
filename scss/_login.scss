@@ -31,23 +31,26 @@
     justify-content: space-between;
 
     input {
-        background-clip: padding-box;
-        border: 1px solid #d1d3e2;
-        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
         color: #211B14;
-        font-weight: 400;
+        border: 1px solid #d1d3e2;
         background-color: #F7F7F7;
-        height: calc(2em + 1rem + 2px);
-        width: calc(2em + 1rem + 2px);
-        padding: 0.5rem 1.50rem;
-        font-size: 1.5rem;
+        font-size: 2.5em;
+        font-weight: 600;
         line-height: 1.5;
         border-radius: 0.7rem;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 10px;
         &:focus {
             color: $green;
             border-color: $orange;
             background-color: #F7F7F7;
             box-shadow: 0 0 5px $orange inset;
+            outline: 0 !important;
+            outline-offset: 0  !important;
+        }
+        &:last-child {
+            margin-right: 0;
         }
     }
 }
