@@ -6,6 +6,7 @@ html {
 }
 
 body {
+    color: #6D5424;
     margin: 0 0 60px;
 }
 
@@ -26,15 +27,24 @@ h1 {
 }
 
 .navbar {
-    height: 144px;
+    height: 100px;
     background-color: #EDF3D9;
+    .btn {
+        margin-top: 5px;
+    }
 }
 
 .navbar-bg {
-    background-color: #EDF3D9;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: right center;
     background-image: url('../img/header.png');
+}
+
+.navbar-brand {
+    img {
+        width: 150px;
+    }
 }
 
 // Main page wrapper
@@ -79,13 +89,14 @@ h1 {
 // User Section
 .user-section {
     padding: 1.5rem;
-    background-image: url('../img/background.png');
+    // background-size: contain;
     background-repeat: no-repeat;
     background-position: right bottom;
+    background-image: url('../img/background.png');
     .user-name {
         color: #6D5424;
         font-family: 'Futura Bold';
-        font-size: 1.75rem;
+        font-size: 1.75em;
     }
     .user-info {
         margin-top: 3rem;
@@ -97,13 +108,13 @@ h1 {
             .form-control-static {
                 color: #211B14;
                 font-family: 'Futura Bold';
-                font-size: 1.75rem;
+                font-size: 1.75em;
             }
         }
         .toggle-point {
             color: #677733;
             font-family: 'Futura Bold';
-            font-size: 1.50rem;
+            font-size: 1.50em;
             &:after {
                 margin-left: 10px;
                 content: '\21B4';
