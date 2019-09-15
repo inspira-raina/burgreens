@@ -29,7 +29,6 @@
 .input-otp {
     display: flex;
     justify-content: space-between;
-
     input {
         color: #211B14;
         border: 1px solid #d1d3e2;
@@ -52,5 +51,6 @@
         &:last-child {
             margin-right: 0;
         }
+        
     }
 }

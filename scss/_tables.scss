@@ -4,6 +4,7 @@
         th {
             color: #6D5424;
             font-family: 'Futura Bold';
+            border-bottom: none;
         }
     }
     th, td {
@@ -18,6 +19,21 @@
         tr {
             &:nth-of-type(odd) {
                 background-color: #EDF3D9;
+            }
+        }
+    }
+}
+
+.dataTable {
+    thead {
+        .sorting,
+        .sorting_asc,
+        .sorting_desc,
+        .sorting_asc_disabled,
+        .sorting_desc_disabled {
+            &:before, &:after {
+                color: #E8AB46;
+                bottom: 1.5em !important;
             }
         }
     }
