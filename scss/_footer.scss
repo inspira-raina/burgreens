@@ -1,0 +1,20 @@
+footer.sticky-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    padding-top: 25px;
+    background-color: #677733;
+    .copyright {
+        color: #B3B3B3;
+        line-height: 1;
+        font-size: 0.9rem;
+    }
+}
+
+body.sidebar-toggled {
+    footer.sticky-footer {
+        width: 100%;
+    }
+}

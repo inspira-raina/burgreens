@@ -1,0 +1,114 @@
+// Global component styles
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 60px;
+}
+
+a {
+    color: #6D5424;
+    &:hover {
+        color: #B3B3B3;
+        text-decoration: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+h1 {
+    color: #6D5424;
+    font-family: Futura Bold;
+}
+
+.navbar {
+    height: 144px;
+    background-color: #EDF3D9;
+}
+
+.navbar-bg {
+    background-color: #EDF3D9;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: url('../img/header.png');
+}
+
+// Main page wrapper
+#wrapper {
+    display: flex;
+    #content-wrapper {
+        background-color: $gray-100;
+        width: 100%;
+        overflow-x: hidden;
+        #content {
+            flex: 1 0 auto;
+        }
+    }
+}
+
+// Set container padding to match gutter width instead of default 15px
+.container,
+.container-fluid {
+    padding-left: $grid-gutter-width;
+    padding-right: $grid-gutter-width;
+}
+
+.bg-lightgreen {
+    background-color: #EDF3D9;
+}
+
+#profile {
+    padding: 10rem 0;
+}
+
+.point-history {
+    .panel-heading {
+        color: #6D5424;
+        font-family: 'Futura Bold';
+        font-size: 1.75rem;
+        background-color: #EDF3D9;
+        padding: 1.5rem;
+    }
+}
+
+
+// User Section
+.user-section {
+    padding: 1.5rem;
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    .user-name {
+        color: #6D5424;
+        font-family: 'Futura Bold';
+        font-size: 1.75rem;
+    }
+    .user-info {
+        margin-top: 3rem;
+        padding-bottom: 4rem;
+        .form-group {
+            label {
+                color: #6D5424;
+            }
+            .form-control-static {
+                color: #211B14;
+                font-family: 'Futura Bold';
+                font-size: 1.75rem;
+            }
+        }
+        .toggle-point {
+            color: #677733;
+            font-family: 'Futura Bold';
+            font-size: 1.50rem;
+            &:after {
+                margin-left: 10px;
+                content: '\21B4';
+                color: #E8AB46;
+            }
+        }
+    }
+}
