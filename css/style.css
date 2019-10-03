@@ -1520,10 +1520,12 @@ pre code {
   vertical-align: top;
   border-top: 1px solid #dddfeb;
 }
+
 .table thead th {
   vertical-align: bottom;
   border-bottom: 2px solid #dddfeb;
 }
+
 .table tbody + tbody {
   border-top: 2px solid #dddfeb;
 }
@@ -10043,8 +10045,9 @@ h1 {
   border-top: 0 !important;
 }
 
-.table-striped tbody tr:nth-of-type(odd) {
-  background-color: #EDF3D9;
+.table-striped thead tr,
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #EDF3D9;
 }
 
 .dataTable thead .sorting:before, .dataTable thead .sorting:after,
