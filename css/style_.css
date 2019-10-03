@@ -421,15 +421,7 @@ hr {
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-/*# sourceMappingURL=style.css.map */
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-input[type=number] {
-    -moz-appearance:textfield; /* Firefox */
-}
+
 small,
 .small {
   font-size: 80%;
@@ -9731,37 +9723,23 @@ h1 {
 }
 
 #profile {
-    padding: 10rem 0 0 0;
-}
-
-#pointHistory {
-  padding-bottom: 3rem;
-}
-
-#pointHistory .container {
-    padding: 0 !important;
+  padding: 10rem 0;
 }
 
 .point-history .panel-heading {
+  color: #6D5424;
+  font-family: "Futura Bold";
+  font-size: 1.75rem;
   background-color: #EDF3D9;
-  padding: 1.5rem 2.5rem;
-}
-
-.point-history .panel-heading h2 {
-    padding-left: 30px;
-    padding-right: 30px;
-    color: #6D5424;
-    font-family: "Futura Bold";
-    font-size: 1.75rem;
+  padding: 1.5rem;
 }
 
 .user-section {
-  padding: 0 !important;
+  padding: 1.5rem;
   background-repeat: no-repeat;
   background-position: right bottom;
   background-image: url("../img/background.png");
 }
-
 .user-section .user-name {
   color: #6D5424;
   font-family: "Futura Bold";
@@ -9775,11 +9753,6 @@ h1 {
   color: #6D5424;
 }
 .user-section .user-info .form-group .form-control-static {
-  color: #211B14;
-  font-family: "Futura Bold";
-  font-size: 1.4em;
-}
-.user-section .user-info .form-group .form-control-static2 {
   color: #211B14;
   font-family: "Futura Bold";
   font-size: 1.75em;
@@ -10022,23 +9995,13 @@ h1 {
 .table {
   color: #211B14;
 }
-
 .table thead th {
   color: #6D5424;
   font-family: "Futura Bold";
   border-bottom: none;
 }
-
-.table tr {
-    display: flex;
-    justify-content: center ;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
 .table th, .table td {
   padding: 1.5rem;
-  width: 20% !important;
   vertical-align: center;
   border-top: 0 !important;
 }
@@ -10058,10 +10021,6 @@ h1 {
 .dataTable thead .sorting_desc_disabled:after {
   color: #E8AB46;
   bottom: 1.5em !important;
-}
-
-div.dataTables_wrapper div.dataTables_paginate ul.pagination {
-    justify-content: center !important;
 }
 
 .page-link {
@@ -10172,134 +10131,10 @@ footer.sticky-footer {
   padding-top: 25px;
   background-color: #677733;
 }
-
-footer {
-  height: 60px;
-  width: 100%;
-  padding-top: 25px;
-  background-color: #677733;
-}
-
-footer .copyright,
 footer.sticky-footer .copyright {
   color: #B3B3B3;
   line-height: 1;
   font-size: 0.6875em;
 }
 
-/* Update for Mobile */
-
-@media screen and (max-width: 480px) {
-    .navbar .container {
-        padding: 0;
-    }
-
-    .navbar .btn {
-        margin-top: 10px;
-    }
-
-    .form-signin .form-title {
-        font-size: 1.75em;
-    }
-
-    .form-otp .form-otp-title {
-        font-size: 1.25em;
-    }
-
-    .form-signin {
-        margin: 7rem auto 0;
-    }
-
-    .checkbox, .kt-login__link {
-        font-size: 14px;
-    }
-
-    .input-otp {
-        padding: 10px;
-    }
-
-    .input-otp input {
-        margin-right: 5px;
-        font-size: 1.75em;
-        padding: 5px
-    }
-
-    .btn-brown {
-        padding: 0.25rem 0.5rem;
-        font-size: 0.875rem;
-        line-height: 1.5;
-        border-radius: 0.2rem;
-    }
-
-    /* Profile */
-    #pointHistory {
-      padding-bottom: 5rem;
-    }
-
-
-    .user-section {
-      padding: 1.5rem;
-      background-repeat: no-repeat;
-      background-position: right bottom;
-      background-image: url("../img/background.png");
-    }
-
-    .user-section .user-name {
-      color: #6D5424;
-      font-family: "Futura Bold";
-      font-size: 1.25em;
-    }
-
-    .user-section .user-info {
-      margin-top: 2rem;
-      padding-bottom: 4rem;
-    }
-
-    .user-section .user-info .form-group label {
-      color: #6D5424;
-    }
-
-    .user-section .user-info .form-group .form-control-static {
-      color: #211B14;
-      font-family: "Futura Bold";
-      font-size: 1em;
-    }
-
-    .user-section .user-info .form-group .form-control-static2 {
-      color: #211B14;
-      font-family: "Futura Bold";
-      font-size: 1.25em;
-    }
-
-    .user-section .user-info .toggle-point {
-      color: #677733;
-      font-family: "Futura Bold";
-      font-size: 1.075em;
-      display: block;
-      margin-bottom: 2rem;
-    }
-
-    .user-section .user-info .toggle-point:after {
-      margin-left: 10px;
-      content: "↴";
-      color: #E8AB46;
-    }
-
-    .point-history .panel-heading {
-        padding: 1rem;
-    }
-
-    .point-history .panel-heading h2 {
-        padding-left: 10px;
-        font-size: 1.25rem;
-    }
-
-    .table tr {
-        display: table-row;
-    }
-
-    .table th, .table td {
-      width: 0;
-    }
-
-}
+/*# sourceMappingURL=style.css.map */

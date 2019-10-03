@@ -1,0 +1,99 @@
+@media screen and (max-width: 480px) {
+    .navbar .container {
+        padding: 0;
+    }
+
+    .navbar .btn {
+        margin-top: 10px;
+    }
+
+    .form-signin .form-title {
+        font-size: 1.75em;
+    }
+
+    .form-otp .form-otp-title {
+        font-size: 1.25em;
+    }
+
+    .form-signin {
+        margin: 7rem auto 0;
+    }
+
+    .checkbox, .kt-login__link {
+        font-size: 14px;
+    }
+
+    .input-otp {
+        padding: 10px;
+    }
+
+    .input-otp input {
+        margin-right: 5px;
+        font-size: 1.75em;
+        padding: 5px
+    }
+
+    .btn-brown {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.875rem;
+        line-height: 1.5;
+        border-radius: 0.2rem;
+    }
+
+    /* Profile */
+    #pointHistory {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #pointHistory {
+      padding-bottom: 5rem;
+    }
+
+
+    .user-section .user-name {
+      color: #6D5424;
+      font-family: "Futura Bold";
+      font-size: 1.25em;
+    }
+
+    .user-section .user-info {
+      margin-top: 2rem;
+      padding-bottom: 4rem;
+    }
+
+    .user-section .user-info .form-group label {
+      color: #6D5424;
+    }
+
+    .user-section .user-info .form-group .form-control-static {
+      color: #211B14;
+      font-family: "Futura Bold";
+      font-size: 1em;
+    }
+
+    .user-section .user-info .form-group .form-control-static2 {
+      color: #211B14;
+      font-family: "Futura Bold";
+      font-size: 1.25em;
+    }
+
+    .user-section .user-info .toggle-point {
+      color: #677733;
+      font-family: "Futura Bold";
+      font-size: 1.075em;
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    .user-section .user-info .toggle-point:after {
+      margin-left: 10px;
+      content: "↴";
+      color: #E8AB46;
+    }
+
+    .point-history .panel-heading {
+        font-size: 1.25rem;
+        padding: 1rem;
+    }
+}
