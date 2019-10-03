@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/mobile.css">
 
     <!-- Custom styles for tdis page -->
-    <link rel="stylesheet" href="vendor/datatables/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="vendor/datatables/dataTables.bootstrap4.css">
 </head>
 <body>
     <!-- Header -->
@@ -24,7 +24,7 @@
         <nav class="navbar fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Burgreens" /></a>
-                <a class="btn btn-sm btn-brown" href="login.html">Log Out</a>
+                <a class="btn btn-sm btn-brown" href="index.html">Log Out</a>
             </div>
         </nav>
     </header>
@@ -42,8 +42,7 @@
                             <label>Active Point</label>
                             <p class="form-control-static">740 pts</p>
                         </div>
-                        <!-- toggle-point jdi gini aja -->
-                        <a class="toggle-point" href="#">View Point History</a>
+                        <a class="toggle-point" data-toggle="collapse" href="#pointHistory" role="button" aria-expanded="false" aria-controls="pointHistory">View Point History</a>
                     </div>
                     <div class="col">
                         <div class="form-group">
@@ -63,7 +62,7 @@
             </div>
             <!-- End User section container -->
         </div>
-        <div id="pointHistory" class="panel point-history">
+        <div id="pointHistory" class="panel point-history collapse">
             <div class="panel-body">
                 <div class="table-responsive">
                     <!-- Point History -->
