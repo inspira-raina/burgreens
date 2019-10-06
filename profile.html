@@ -31,7 +31,7 @@
     <!-- End of Header -->
 
     <div id="profile" class="container-fluid"> <!-- container => container-fluid -->
-        <div class="user-section">
+        <div class="user-section min-vh-100">
             <!-- User section container -->
             <!-- tambahin container -->
             <div class="container">
@@ -278,6 +278,14 @@
                 'searching': false,
                 'lengthChange': false,
             });
+        });
+
+        $('#pointHistory').on('hidden.bs.collapse', function () {
+          $('.user-section').addClass('min-vh-100');
+        });
+
+        $('#pointHistory').on('show.bs.collapse', function () {
+          $('.user-section').removeClass('min-vh-100');
         });
     </script>
 
