@@ -10016,6 +10016,12 @@ h1 {
     color: #211B14;
 }
 
+.table tr {
+  display: flex;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 .table thead th {
     color: #6D5424;
     font-family: "Futura Bold";
@@ -10024,7 +10030,7 @@ h1 {
 
 .table th, .table td {
     padding: 1.5rem;
-    width: 20% !important;
+    width: 25% !important;
     vertical-align: center;
     border-top: 0 !important;
 }
@@ -10032,10 +10038,6 @@ h1 {
 .table-striped thead tr,
 .table-striped tbody tr:nth-of-type(even) {
     background-color: #EDF3D9;
-}
-
-.dataTable {
-    margin: 0 !important;
 }
 
 .dataTable thead .sorting:before,
