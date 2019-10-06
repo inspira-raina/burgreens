@@ -10054,6 +10054,10 @@ h1 {
     bottom: 1.5em !important;
 }
 
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+  justify-content: center !important;
+}
+
 .page-link {
     color: #6D5424;
     border: none;
