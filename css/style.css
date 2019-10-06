@@ -1554,15 +1554,6 @@ pre code {
     border: 0;
 }
 
-.table-striped tbody tr:nth-of-type(odd) {
-    background-color: rgba(0, 0, 0, 0.05);
-}
-
-.table-hover tbody tr:hover {
-    color: #858796;
-    background-color: rgba(0, 0, 0, 0.075);
-}
-
 .table-primary,
 .table-primary > th,
 .table-primary > td {
@@ -9733,7 +9724,7 @@ h1 {
 }
 
 #profile {
-    padding: 10rem 0 0 0;
+    padding: 0 !important;
 }
 
 #pointHistory {
@@ -9758,7 +9749,7 @@ h1 {
 }
 
 .user-section {
-    padding: 0 !important;
+    padding: 10rem 0 0 0;
     background-repeat: no-repeat;
     background-position: right bottom;
     background-image: url("../img/background.png");
@@ -10031,13 +10022,6 @@ h1 {
     border-bottom: none;
 }
 
-.table tr {
-    display: flex;
-    justify-content: center ;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
 .table th, .table td {
     padding: 1.5rem;
     width: 20% !important;
@@ -10066,10 +10050,6 @@ h1 {
 .dataTable thead .sorting_desc_disabled:after {
     color: #E8AB46;
     bottom: 1.5em !important;
-}
-
-div.dataTables_wrapper div.dataTables_paginate ul.pagination {
-    justify-content: center !important;
 }
 
 .page-link {
